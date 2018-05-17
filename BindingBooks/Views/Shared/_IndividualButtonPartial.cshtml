@@ -1,0 +1,6 @@
+﻿@model BindingBooks.Models.IndividualButtonPartial
+
+<a type="button" class="btn btn-@Model.ButtonType btn-@Model.ButtonSize" href="@Url.Action(@Model.Action)@Model.ActionParameter">
+    <i class="fas fa-@Model.Icon"></i>
+    <span>@Model.Text</span>
+</a>

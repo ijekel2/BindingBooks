@@ -1,0 +1,66 @@
+﻿@using BindingBooks.Models
+
+@model IEnumerable<Book>
+
+
+@{
+    ViewBag.Title = "Index";
+    
+}
+
+<h3>Manage Books</h3>
+
+
+<table class="table table-condensed table-hover">
+    <tr class="table-header">
+        <th>
+            @Html.DisplayNameFor(m=>m.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(m=>m.ISBN)
+        </th>
+        <th>
+            @Html.DisplayNameFor(m=>m.Availability)
+        </th>
+        <th>
+            @Html.DisplayNameFor(m=>m.Price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(m=>m.Genre.Name)
+        </th>
+        <th></th>
+        <th></th>
+    </tr>
+    
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(m=>item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(m=>item.ISBN)
+            </td>
+            <td>
+                @Html.DisplayFor(m=>item.Availability)
+            </td>
+            <td>
+                @Html.DisplayFor(m=>item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(m=>item.Genre.Name)
+            </td>
+            <td>
+                @Html.Partial("_TableButtonPartial", new IndividualButtonPartial
+                {
+                    Id = item.Id
+                })
+            </td>
+        </tr>
+    }
+</table>
+
+<p>
+    @Html.Partial("_CreateButtonPartial")
+</p>
+

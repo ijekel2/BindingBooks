@@ -1,0 +1,14 @@
+﻿@using BindingBooks.Models
+
+@model int
+
+@Html.Partial("_IndividualButtonPartial", new IndividualButtonPartial
+{
+    Action = "Edit",
+    ButtonType = "primary",
+    ButtonSize = "sm",
+    Text = "Edit",
+    Icon = "pencil-alt", 
+    Id = Model
+})
+
