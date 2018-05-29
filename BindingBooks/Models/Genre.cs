@@ -9,7 +9,7 @@ namespace BindingBooks.Models
         [Required] public int Id { get; set; }
         
         [Required] 
-        [DisplayName("Genre Name")]
+        [DisplayName("Genre")]
         public string Name { get; set; }
     }
 }

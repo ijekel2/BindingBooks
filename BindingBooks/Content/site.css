@@ -1,12 +1,17 @@
 body {
     padding-top: 50px;
     padding-bottom: 20px;
+    overflow-x: hidden ! important;
+    background-color: #f8f8f8;
+    background-image: url("Images/wooden-floor.png");
+    background-size: cover;
+    background-repeat: repeat-y;
+    
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 0px;
-    padding-right: 0px;
+    width: 90%;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -16,9 +21,114 @@ body {
     white-space: normal;
 }
 
+hr {
+    border-color: #F8ECC2;
+}
+
+
 /* Set width on the form input elements since they're 100% wide by default */
 input,
 select,
 textarea {
     max-width: 300px;
+}
+
+/* Navbar style */
+.navbar.center .navbar-inner {
+    text-align: center;
+    background-color: transparent;
+}
+
+.navbar.center .navbar-inner .nav {
+    display: inline-block;
+    float: none;
+}
+
+#main-navbar {
+    background-color: #2c3e50;
+}
+
+#main-navbar li a {
+    color: #F8ECC2;
+    font-size: 24px;
+    font-family: Snell Roundhand;
+}
+
+#main-navbar li a:hover {
+    background-color: #2c3e50;
+    color: #ffffff;
+    
+}
+
+#main-navbar li a:active {
+    background-color: #18bc9c;
+    color: #ffffff;
+
+}
+
+
+/* Dropdown menu */
+.dropdown:hover {
+    background-color: #2c3e50;
+}
+
+
+#manage-menu {
+    background-color: #2c3e50;
+
+}
+
+#manage-menu li a {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #F8ECC2;
+}
+
+
+
+
+/* Manage Books page */
+#book-table td.title {
+    width: 250px;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+
+#book-table td.genre {
+    width: 195px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#book-table td {
+    width: 100px;
+    font-size: 15px;
+}
+
+#book-table {
+    width: 100%;
+    font-size: 18px;
+}
+
+#manage-books {
+    font-family: Snell Roundhand;
+    font-size: 4vw;
+}
+
+
+/* Manage Genres page */
+#genre-table td.name {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#genre-table tr{
+    width: 100%;
+    font-size: 18px;
+}
+
+#manage-genres {
+    font-family: Snell Roundhand;
+    font-size: 4vw;
 }

@@ -23,7 +23,7 @@ namespace BindingBooks.Extensions
                         Title = b.Title,
                         Description = b.Description,
                         ImageUrl = b.ImageUrl,
-                        Link = "BookDetail/Index/" + b.Id
+                        Link = "../Book/Details/" + b.Id
 
                     }).ToList();
 

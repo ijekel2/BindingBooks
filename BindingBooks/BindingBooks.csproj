@@ -137,7 +137,6 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\BookController.cs" />
     <Compile Include="Controllers\GenreController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -161,11 +160,15 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\homePage.css" />
     <Content Include="Content\Images\Anneofgreengablescover.png" />
     <Content Include="Content\Images\Bookthiefcover.png" />
     <Content Include="Content\Images\Crimeandpunishmentcover.png" />
     <Content Include="Content\Images\Dunecover.png" />
     <Content Include="Content\Images\Nameofthewindcover.png" />
+    <Content Include="Content\Images\typewriter.png" />
+    <Content Include="Content\Images\woodbackground.png" />
+    <Content Include="Content\Images\wooden-floor.png" />
     <Content Include="Content\site.css" />
     <Content Include="Content\thumbnail.css" />
     <Content Include="favicon.ico" />
@@ -184,7 +187,6 @@
     <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
     <Content Include="Scripts\site.js" />
-    <Content Include="Views\Account\Register.cshtml" />
     <Content Include="Views\Book\Create.cshtml" />
     <Content Include="Views\Book\Delete.cshtml" />
     <Content Include="Views\Book\Details.cshtml" />
@@ -196,6 +198,7 @@
     <Content Include="Views\Genre\Edit.cshtml" />
     <Content Include="Views\Genre\Index.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Browse.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\MembershipType\Create.cshtml" />

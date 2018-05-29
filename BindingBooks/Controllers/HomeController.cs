@@ -13,7 +13,12 @@ namespace BindingBooks.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index( string search = null )
+        public ActionResult Index()
+        {
+            return View();
+        }
+        
+        public ActionResult Browse( string search = null )
         {
             var thumbnails = new List<ThumbnailModel>().GetBookThumbnail(ApplicationDbContext.Create(), search);
             var count = thumbnails.Count() / 4;

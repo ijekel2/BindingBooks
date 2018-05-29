@@ -1,0 +1,94 @@
+body {
+    overflow-x: hidden ! important;
+    overflow-y: hidden ! important;
+    background-color: #f8f8f8;
+    background-image: url("Images/typewriter.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    
+}
+
+.navbar.center .navbar-inner {
+    text-align: center;
+    background-color: transparent;
+}
+
+.navbar.center .navbar-inner .nav {
+    display:inline-block;
+    float: none;
+    
+}
+
+.navbar-fixed-top {
+    background-color: #2c3e50;
+}
+
+.nav.navbar-nav li a {
+    color: #F8ECC2;
+    font-size: 24px;
+    font-family: Snell Roundhand;
+}
+
+.nav.navbar-nav li a:hover {
+    background-color: #2c3e50;
+    color: #ffffff;
+
+}
+
+.nav.navbar-nav li a:active {
+    background-color: #18bc9c;
+    color: #ffffff;
+
+}
+
+.jumbotron {
+    padding-top: 220px;
+    text-align: center;
+    background-color: transparent;
+    
+}
+.btn.btn-primary {
+    color: #F8ECC2;
+    background-color: #2c3e50;
+    /*border-color: #206468; */
+    font-size: 2vw;
+    font-weight: 500;
+
+}
+
+.btn.btn-primary:hover{
+    color: #ffffff;
+
+}
+
+#title {
+    font-size: 8vw;
+    font-family: Snell Roundhand, cursive;
+    font-weight: 600;
+    
+}
+
+#browse {
+    margin-left: 300px
+    
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    /*whatever width you want*/
+}

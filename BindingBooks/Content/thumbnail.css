@@ -15,6 +15,7 @@
 
 .thumbnail {
     transition: all 0.4s ease-in-out 0s;
+    color: #F8ECC2;
 }
 
 .thumbnail:hover{
