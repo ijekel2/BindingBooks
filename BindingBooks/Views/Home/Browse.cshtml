@@ -7,18 +7,20 @@
 @using (Html.BeginForm("Browse", "Home", FormMethod.Get))
 {
     <br/>
+    <br/>
     <div class="row">
+        @*<h2 id="page-title" style="display: inline">Browse Our Selection</h2>*@
         <div class="pull-right" style="padding-right: 15px">
             <button type="submit" value="search" class="btn btn-sm btn-primary">
                 <span class="fas fa-search"></span> &nbsp; Search
             </button>
         </div>
         <div class="pull-right">
-            @Html.Editor("Search", new { htmlattributes = new { @class = "form-control input-sm"}})
+            @Html.Editor("Search", new {htmlattributes = new {@class = "form-control input-sm"}})
         </div>
     </div>
 
-    <br/>
+    <hr/>
 }
 
 <div class="row">

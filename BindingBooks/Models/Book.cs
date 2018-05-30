@@ -20,6 +20,7 @@ namespace BindingBooks.Models
         public string Description { get; set; }
 
         [Required]
+        [DisplayName("Image URL")]
         [DataType(DataType.ImageUrl)]
         public string ImageUrl { get; set; }
 
@@ -31,6 +32,7 @@ namespace BindingBooks.Models
         public double Price { get; set; }
         
         [DataType(DataType.Date)]
+        [DisplayName("Date Added")]
         [DisplayFormat(DataFormatString = "{0: MM dd yyyy}")]
         public DateTime DateAdded { get; set; }
         
@@ -42,12 +44,15 @@ namespace BindingBooks.Models
         
         [Required]
         [DataType(DataType.Date)]
+        [DisplayName("Pubication Date")]
         [DisplayFormat(DataFormatString = "{0: MM dd yyyy}")]
         public DateTime PublicationDate { get; set; }
         
         [Required] public int Pages { get; set; }
         
-        [Required] public string ProductDimensions { get; set; }
+        [Required] 
+        [DisplayName("Dimensions")]
+        public string ProductDimensions { get; set; }
         
         [Required] public string Publisher { get; set; }
         

@@ -30,7 +30,7 @@ hr {
 input,
 select,
 textarea {
-    max-width: 300px;
+    max-width: 400px;
 }
 
 /* Navbar style */
@@ -85,6 +85,15 @@ textarea {
 }
 
 
+/* Style page titles
+ */
+
+#page-title{
+    font-family: Snell Roundhand;
+    font-size: 4vw;
+}
+
+
 
 
 /* Manage Books page */
@@ -111,24 +120,41 @@ textarea {
     font-size: 18px;
 }
 
-#manage-books {
-    font-family: Snell Roundhand;
-    font-size: 4vw;
-}
 
 
 /* Manage Genres page */
 #genre-table td.name {
+    width: 180px;
     font-size: 16px;
     font-weight: 600;
 }
 
-#genre-table tr{
-    width: 100%;
-    font-size: 18px;
+#genre-table td {
+    width: 150px;
+    font-size: 15px;
 }
 
-#manage-genres {
-    font-family: Snell Roundhand;
-    font-size: 4vw;
+#genre-table {
+    width: 100%;
+    font-size: 18px;
+
+}
+
+
+/* Manage membership types page */
+
+#membership-table td.name {
+    width: 170px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#membership-table td {
+    width: 170px;
+    font-size: 15px;
+}
+
+#membership-table {
+    width: 100%;
+    font-size: 18px;
 }

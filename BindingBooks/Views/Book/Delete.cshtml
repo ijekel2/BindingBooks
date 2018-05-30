@@ -9,14 +9,15 @@
 {
     @Html.AntiForgeryToken()
     <div class="form-horizontal">
-        <h3>Delete Book</h3>
+        <br/>
+        <h2 id="page-title">Delete Book</h2>
         <hr/>
 
         <div>
             @Html.HiddenFor(model => model.Book.Id)
-            
-            <div class="row" style="border: 1px solid; border-radius: 5px">
-                
+
+            <div class="row">
+
                 <fieldset disabled>
                     <div class="col-sm-10">
                         <br/>
@@ -47,7 +48,7 @@
                         <div class="form-group">
                             @Html.LabelFor(model => model.Book.Description, htmlAttributes: new {@class = "control-label col-md-2"})
                             <div class="col-md-10">
-                                @Html.EditorFor(model => model.Book.Description, new {htmlAttributes = new {@class = "form-control", style="height: 150px"}})
+                                @Html.EditorFor(model => model.Book.Description, new {htmlAttributes = new {@class = "form-control", style = "height: 150px"}})
                                 @Html.ValidationMessageFor(model => model.Book.Description, "", new {@class = "text-danger"})
                             </div>
                         </div>
@@ -85,18 +86,18 @@
                         </div>
 
                         <div class="form-group">
-                            @Html.LabelFor(model => model.Book.GenreId, htmlAttributes: new {@class = "control-label col-md-2"})
+                            @Html.LabelFor(model => model.Book.Genre, htmlAttributes: new {@class = "control-label col-md-2"})
                             <div class="col-md-10">
-                                @Html.DropDownListFor(model => model.Book.GenreId, new SelectList(Model.Genres, "Id", "Name"), new { @class = "form-control" })
+                                @Html.DropDownListFor(model => model.Book.GenreId, new SelectList(Model.Genres, "Id", "Name"), new {@class = "form-control"})
                                 @Html.ValidationMessageFor(model => model.Book.GenreId, "", new {@class = "text-danger"})
                             </div>
                         </div>
-                        
+
                         <div class="form-group">
-                            @Html.LabelFor(model => model.Book.Publisher, htmlAttributes: new { @class = "control-label col-md-2" })
+                            @Html.LabelFor(model => model.Book.Publisher, htmlAttributes: new {@class = "control-label col-md-2"})
                             <div class="col-md-10">
-                                @Html.EditorFor(model => model.Book.Publisher, new { htmlAttributes = new { @class = "form-control"}})
-                                @Html.ValidationMessageFor(model => model.Book.Publisher, "", new { @class = "text-danger"})
+                                @Html.EditorFor(model => model.Book.Publisher, new {htmlAttributes = new {@class = "form-control"}})
+                                @Html.ValidationMessageFor(model => model.Book.Publisher, "", new {@class = "text-danger"})
                             </div>
                         </div>
 
@@ -125,13 +126,13 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <br/>
                     <div class="col-sm-2">
                         <img src="@Model.Book.ImageUrl" alt="" style="width: 100%; height: auto"/>
                     </div>
                 </fieldset>
-            </div> 
+            </div>
         </div>
     </div>
 

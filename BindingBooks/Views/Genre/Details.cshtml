@@ -6,16 +6,17 @@
 }
 
 <div>
-    <h3>Genre Details</h3> 
+    <br/>
+    <h2 id="page-title">Genre Details</h2>
     <hr/>
     
     <fieldset disabled="True">
-        <div class="row" style="padding-bottom: 5px; padding-top: 5px;">
-            <div class="col-md-2">
-                @Html.LabelFor(m=>m.Name, htmlAttributes: new { @class = "control-label"})
-            </div>
-            <div class="col-md-10">
-                @Html.TextBoxFor(m=>m.Name, new { @class = "form-control"})
+        <div class="row">
+            <div class="form-group">
+                @Html.LabelFor(m=>m.Name, htmlAttributes: new { @class = "col-md-2"})
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.Name, new {@class = "form-control"})
+                </div>
             </div>
         </div>
     </fieldset>

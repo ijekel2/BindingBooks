@@ -2353,10 +2353,8 @@ table th[class*="col-"] {
   background-color: #ecf0f1;
 }
 .table-hover > tbody > tr > td.active:hover,
-.table-hover > tbody > tr > th.active:hover,
 .table-hover > tbody > tr.active:hover > td,
-.table-hover > tbody > tr:hover > .active,
-.table-hover > tbody > tr.active:hover > th {
+.table-hover > tbody > tr:hover > .active {
   background-color: #dde4e6;
 }
 .table > thead > tr > td.success,
@@ -2374,10 +2372,8 @@ table th[class*="col-"] {
   background-color: #18bc9c;
 }
 .table-hover > tbody > tr > td.success:hover,
-.table-hover > tbody > tr > th.success:hover,
 .table-hover > tbody > tr.success:hover > td,
-.table-hover > tbody > tr:hover > .success,
-.table-hover > tbody > tr.success:hover > th {
+.table-hover > tbody > tr:hover > .success{
   background-color: #15a589;
 }
 .table > thead > tr > td.info,
@@ -2395,10 +2391,8 @@ table th[class*="col-"] {
   background-color: #3498db;
 }
 .table-hover > tbody > tr > td.info:hover,
-.table-hover > tbody > tr > th.info:hover,
 .table-hover > tbody > tr.info:hover > td,
-.table-hover > tbody > tr:hover > .info,
-.table-hover > tbody > tr.info:hover > th {
+.table-hover > tbody > tr:hover > .info{
   background-color: #258cd1;
 }
 .table > thead > tr > td.warning,
@@ -2416,10 +2410,8 @@ table th[class*="col-"] {
   background-color: #f39c12;
 }
 .table-hover > tbody > tr > td.warning:hover,
-.table-hover > tbody > tr > th.warning:hover,
 .table-hover > tbody > tr.warning:hover > td,
-.table-hover > tbody > tr:hover > .warning,
-.table-hover > tbody > tr.warning:hover > th {
+.table-hover > tbody > tr:hover > .warning {
   background-color: #e08e0b;
 }
 .table > thead > tr > td.danger,
@@ -2437,10 +2429,8 @@ table th[class*="col-"] {
   background-color: #e74c3c;
 }
 .table-hover > tbody > tr > td.danger:hover,
-.table-hover > tbody > tr > th.danger:hover,
 .table-hover > tbody > tr.danger:hover > td,
-.table-hover > tbody > tr:hover > .danger,
-.table-hover > tbody > tr.danger:hover > th {
+.table-hover > tbody > tr:hover > .danger{
   background-color: #e43725;
 }
 .table-responsive {

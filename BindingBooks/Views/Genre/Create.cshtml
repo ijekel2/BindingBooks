@@ -10,8 +10,9 @@
     @Html.AntiForgeryToken()
     
     <div class="form-horizontal">
-        <h3>Create New Genre</h3>
-        <hr />
+        <br/>
+        <h2 id="page-title">Create New Genre</h2>
+        <hr/>
         
         <div class="form-group">
             @Html.LabelFor(m=>m.Name, htmlAttributes: new { @class = "control-label col-md-2" })

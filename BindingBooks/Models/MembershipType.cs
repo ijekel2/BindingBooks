@@ -10,18 +10,21 @@ namespace BindingBooks.Models
         public int Id { get; set; }
 
         [Required]
+        [DisplayName("Membership")]
         public string Name { get; set; }
         
         [Required]
+        [DisplayName("Sign-up Fee")]
         [DataType(DataType.Currency)]
         public double SignUpFee { get; set; }
 
         [Required]
-        [DisplayName("Rental Rate")]
+        [DisplayName("1 Month Rate")]
         [DataType(DataType.Currency)]
         public double ChargeRateOneMonth { get; set; }
         
         [Required]
+        [DisplayName("6 Month Rate")]
         [DataType(DataType.Currency)]
         public double ChargeRateSixMonth { get; set; }
         

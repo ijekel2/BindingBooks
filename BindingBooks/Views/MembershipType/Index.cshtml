@@ -8,10 +8,12 @@
     
 }
 
-<h3>Manage Membership Types</h3>
+<br/>
+<h2 id="page-title">Manage Membership Types</h2>
+<hr/>
 
 
-<table class="table table-condensed table-hover">
+<table id="membership-table" class="table table-hover">
     <tr class="table-header">
         <th>
             @Html.DisplayNameFor(m=>m.Name)
@@ -32,7 +34,7 @@
     @foreach (var item in Model)
     {
         <tr>
-            <td>
+            <td class="name">
                 @Html.DisplayFor(m=>item.Name)
             </td>
             <td>

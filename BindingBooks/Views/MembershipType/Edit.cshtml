@@ -10,13 +10,14 @@
     @Html.AntiForgeryToken()
     
     <div class="form-horizontal">
-        <h3>Edit Membership Type</h3>
-        <hr />
+        <br/>
+        <h2 id="page-title">Edit Membership Type</h2>
+        <hr/>
         
         <div>
             @Html.HiddenFor(model => model.Id)
             
-            <div class="row" style="border: 1px solid; border-radius: 5px">
+            <div class="row">
             
                 <br/>
                 <div class="form-group">

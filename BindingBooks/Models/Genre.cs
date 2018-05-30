@@ -6,7 +6,9 @@ namespace BindingBooks.Models
     public class Genre
     {
         [Key]
-        [Required] public int Id { get; set; }
+        [Required] 
+        [DisplayName("Genre ID")]
+        public int Id { get; set; }
         
         [Required] 
         [DisplayName("Genre")]

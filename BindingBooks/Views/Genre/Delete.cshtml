@@ -9,11 +9,12 @@
 {
     @Html.AntiForgeryToken()
     <div>
-        <h3>Delete Genre</h3>
+        <br/>
+        <h2 id="page-title">Delete Genre</h2>
         <hr/>
 
         <fieldset disabled="True">
-            <div class="row" style="padding-bottom: 5px; padding-top: 5px;">
+            <div class="row">
                 <div class="col-md-2">
                     @Html.LabelFor(m => m.Name, htmlAttributes: new {@class = "control-label"})
                 </div>
