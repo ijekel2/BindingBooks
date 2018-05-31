@@ -15,7 +15,7 @@ namespace BindingBooks.Models
         
         public string LastName { get; set; }
 
-        public string PhoneNumber { get; set; }
+        override public string PhoneNumber { get; set; }
 
         public DateTime BirthDate { get; set; }
 

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using BindingBooks.Models;
 
@@ -34,7 +35,7 @@ namespace BindingBooks.Extensions
             }
             catch(Exception ex)
             {
-                
+                Debug.WriteLine(ex.ToString());
             }
 
             return thumbnails.OrderBy(b => b.Title);
