@@ -1,4 +1,4 @@
-## BindingBooks Online Books Store
+## BindingBooks Online Book "Store"
 This repository contains a web application written in C# using ASP.NET MVC, which I based off of a tutorial by Brughen Patel on Udemy.com. Since I was developing in a Mac OS X environment, I chose to connect to a PostgreSQL database rather than use Microsoft SQL Server. The website supports basic CRUD operations on books and the ability to search books, which are displayed attractively as thumbnails on the "Browse" page. See below for screenshots of the website.
 
 As it is now, the website does not support shopping carts for book purchase or rental. My next steps will be to add login functionality so that normal users can purchase and/or rent books and administrators can manage books. 
@@ -8,8 +8,8 @@ As it is now, the website does not support shopping carts for book purchase or r
 ### Prerequisites
 
 You will need to install the following prerequisite software:
-* [Mono](http://www.mono-project.com/download/stable/). 
-* [PostgreSQL](https://www.postgresql.org/download/).
+* [Mono](http://www.mono-project.com/download/stable/)
+* [PostgreSQL](https://www.postgresql.org/download/)
 
 ### Creating Database and Database Owner
 
@@ -24,7 +24,7 @@ CREATE USER BindingBooksAdmin IDENTIFIED BY ENCRYPTED PASSWORD 'password';
 ALTER DATABASE BindingBooksDB OWNER TO BindingBooksAdmin;
 ```
 
-Use the command `\q` to quit the psql terminal. Now your database should be configured according to the specifications in the project Web.config file.
+Use the command `\q` to quit the psql terminal. Now your database should be configured according to the specifications in the project's Web.config file.
 
 ### Downloading BindingBooks
 
@@ -32,7 +32,7 @@ Once mono is installed and your database is set up, download the BindingBooks re
 ```
 cd <pathToFolder>/BindingBooks-master/
 ```
-Use the `ls` command to ensure that you are in the folder containing the `BindingBooks.sln` file. 
+Use the `ls` command (`dir` on Windows) to ensure that you are in the folder containing the `BindingBooks.sln` file. 
 
 ### Building BindingBooks
 
@@ -65,7 +65,7 @@ Now open your browser and visit [localhost:8000](localhost:8000). Now you should
 
 ## BindingBooks Tour
 ### Browse Page with Search
-![alt text](https://github.com/ijekel2/BindingBooks/tree/master/BindingBooks/Content/Images/borwse.png "Browse Page")
+![alt text](https://github.com/ijekel2/BindingBooks/BindingBooks/Content/Images/browse.png "Browse Page")
 
 ![alt text](https://github.com/ijekel2/BindingBooks/tree/master/BindingBooks/Content/Images/browse-search.png "Search on Browse Page")
 
@@ -82,7 +82,7 @@ Now open your browser and visit [localhost:8000](localhost:8000). Now you should
 
 ![alt text](https://github.com/ijekel2/BindingBooks/tree/master/BindingBooks/Content/Images/create-book.png "New Book Now Appears on Browse Page")
 
-### View Book Details
+### View Book Details 
 ![alt text](https://github.com/ijekel2/BindingBooks/tree/master/BindingBooks/Content/Images/click-details.png "Click Details Button From Manage Books")
 
 ![alt text](https://github.com/ijekel2/BindingBooks/tree/master/BindingBooks/Content/Images/details.png "Details Page")
