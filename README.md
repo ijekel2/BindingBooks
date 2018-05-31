@@ -61,47 +61,6 @@ Now open your browser and visit [localhost:8000](localhost:8000). Now you should
 
 ### BindingBooks Home Page
 ![alt text](https://github.com/ijekel2/BindingBooks/tree/master/BindingBooks/Content/Images/home-page.png "Home Page")
-
-
-## BindingBooks Tour
-### Browse Page with Search
-![alt text](https://github.com/ijekel2/BindingBooks/BindingBooks/Content/Images/browse.png "Browse Page")
-
-![alt text](https://github.com/ijekel2/BindingBooks/tree/master/BindingBooks/Content/Images/browse-search.png "Search on Browse Page")
-
-![alt text](https://github.com/ijekel2/BindingBooks/tree/master/BindingBooks/Content/Images/dropdown-books.png "Manage Dropdown Menu")
-
-![alt text](https://github.com/ijekel2/BindingBooks/tree/master/BindingBooks/Content/Images/manage-books.png "Manage Books Page")
-
-### Create New Book
-![alt text](https://github.com/ijekel2/BindingBooks/tree/master/BindingBooks/Content/Images/create-book.png "Create New Book")
-
-![alt text](https://github.com/ijekel2/BindingBooks/tree/master/BindingBooks/Content/Images/submit-gatsby.png "Submit Newly Created Book")
-
-![alt text](https://github.com/ijekel2/BindingBooks/tree/master/BindingBooks/Content/Images/create-book.png "Create New Book")
-
-![alt text](https://github.com/ijekel2/BindingBooks/tree/master/BindingBooks/Content/Images/create-book.png "New Book Now Appears on Browse Page")
-
-### View Book Details 
-![alt text](https://github.com/ijekel2/BindingBooks/tree/master/BindingBooks/Content/Images/click-details.png "Click Details Button From Manage Books")
-
-![alt text](https://github.com/ijekel2/BindingBooks/tree/master/BindingBooks/Content/Images/details.png "Details Page")
-
-### Edit Book
-![alt text](https://github.com/ijekel2/BindingBooks/tree/master/BindingBooks/Content/Images/click-edit.png "Click Edit Button")
-
-![alt text](https://github.com/ijekel2/BindingBooks/tree/master/BindingBooks/Content/Images/edit-book.png "Edit Book Page")
-
-![alt text](https://github.com/ijekel2/BindingBooks/tree/master/BindingBooks/Content/Images/submit-edit.png "Edit Availability and Submit")
-
-### Delete Book
-![alt text](https://github.com/ijekel2/BindingBooks/tree/master/BindingBooks/Content/Images/click-delete.png "Click Delete Button On Updated Book")
-
-![alt text](https://github.com/ijekel2/BindingBooks/tree/master/BindingBooks/Content/Images/delete-book.png "Delete Book Page")
-
-![alt text](https://github.com/ijekel2/BindingBooks/tree/master/BindingBooks/Content/Images/submit-delete.png "Click Delete Button")
-
-![alt text](https://github.com/ijekel2/BindingBooks/tree/master/BindingBooks/Content/Images/manage-books.png "Book Is Deleted")
  
 ## Acknowledgments
 * Website based off Brughen Patel's Udemy.com tutorial. Code can be found on his [GitHub](https://github.com/bhrugen90/QuirkyBookRental).
