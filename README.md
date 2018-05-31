@@ -64,46 +64,60 @@ Now open your browser and visit [localhost:8000](localhost:8000). Now you should
  
  ## BindingBooks Tour
 ### Browse Page with Search
+
+This is the browse page with thumbnails that link to book details.
 ![alt text](https://github.com/ijekel2/BindingBooks/blob/master/BindingBooks/Content/Images/browse.png "Browse Page")
 
+The search bar can be used to search books by title.
 ![alt text](https://github.com/ijekel2/BindingBooks/blob/master/BindingBooks/Content/Images/browse-search.png "Search on Browse Page")
 
+The "Manage" dropdown menu navigates to manage pages for books, genres, and membership types.
 ![alt text](https://github.com/ijekel2/BindingBooks/blob/master/BindingBooks/Content/Images/dropdown-books.png "Manage Dropdown Menu")
 
+From the manage books page, you can create, edit, delete, or view the details of a book.
 ![alt text](https://github.com/ijekel2/BindingBooks/blob/master/BindingBooks/Content/Images/manage-books.png "Manage Books Page")
 
 ### Create New Book
+
+This is the page for creating a new book
 ![alt text](https://github.com/ijekel2/BindingBooks/blob/master/BindingBooks/Content/Images/create-book.png "Create New Book")
 
+Here I create a new book and submit it.
 ![alt text](https://github.com/ijekel2/BindingBooks/blob/master/BindingBooks/Content/Images/submit-gatsby.png "Submit Newly Created Book")
 
-![alt text](https://github.com/ijekel2/BindingBooks/blob/master/BindingBooks/Content/Images/create-book.png "Create New Book")
-
-![alt text](https://github.com/ijekel2/BindingBooks/blob/master/BindingBooks/Content/Images/create-book.png "New Book Now Appears on Browse Page")
+Now that the book has been created, it appears on the browse page.
+![alt text](https://github.com/ijekel2/BindingBooks/blob/master/BindingBooks/Content/Images/search-gatsby.png "New Book Now Appears on Browse Page")
 
 ### View Book Details 
-![alt text](https://github.com/ijekel2/BindingBooks/blob/master/BindingBooks/Content/Images/click-details.png "Click Details Button From Manage Books")
 
+This is the book details page.
 ![alt text](https://github.com/ijekel2/BindingBooks/blob/master/BindingBooks/Content/Images/details.png "Details Page")
 
 ### Edit Book
+From the details page, we can choose to edit the book.
 ![alt text](https://github.com/ijekel2/BindingBooks/blob/master/BindingBooks/Content/Images/click-edit.png "Click Edit Button")
 
+This is the edit page.
 ![alt text](https://github.com/ijekel2/BindingBooks/blob/master/BindingBooks/Content/Images/edit-book.png "Edit Book Page")
 
+Here I update the availiabity to "Out of Stock" and submit the change.
 ![alt text](https://github.com/ijekel2/BindingBooks/blob/master/BindingBooks/Content/Images/submit-edit.png "Edit Availability and Submit")
 
 ### Delete Book
+We can see that the availability has been changed to "Out of Stock" on the Manage page.
 ![alt text](https://github.com/ijekel2/BindingBooks/blob/master/BindingBooks/Content/Images/click-delete.png "Click Delete Button On Updated Book")
 
+This is the delete page.
 ![alt text](https://github.com/ijekel2/BindingBooks/blob/master/BindingBooks/Content/Images/delete-book.png "Delete Book Page")
 
+At the bottom of the delete page, we click the delete button to complete delete.
 ![alt text](https://github.com/ijekel2/BindingBooks/blob/master/BindingBooks/Content/Images/submit-delete.png "Click Delete Button")
 
+Now that we have deleted the book, it no longer appears on the Manage Books page.
 ![alt text](https://github.com/ijekel2/BindingBooks/blob/master/BindingBooks/Content/Images/manage-books.png "Book Is Deleted")
 
 ## Acknowledgments
-* Website based off Brughen Patel's Udemy.com tutorial. Code can be found on his [GitHub](https://github.com/bhrugen90/QuirkyBookRental).
+* Website based off Brughen Patel's Udemy.com tutorial. Code can be found on his [GitHub](https://github.com/bhrugen90/QuirkyBookRental) profile.
 
 
 
