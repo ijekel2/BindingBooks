@@ -13,7 +13,7 @@ You will need to install the following prerequisite software:
 
 ### Creating Database and Database Owner
 
-You will need to create a new database called "BindingBooksDB" and an a new user "BindingBooksAdmin". Open a new command line window and launch the PostreSQL interactive terminal with this command:
+You will need to create a new database called "BindingBooksDB" and a new user "BindingBooksAdmin". Open a new command line window and launch the PostreSQL interactive terminal with this command:
 ```
 psql postgres
 ```
@@ -28,7 +28,7 @@ Use the command `\q` to quit the psql terminal. Now your database should be conf
 
 ### Downloading BindingBooks
 
-Once mono is installed and your database is set up, download the BindingBooks repository .zip file. Unzip the file, and use the command line to navigate to the unzipped folder using 
+Once mono is installed and your database is set up, download the BindingBooks repository .zip file. Unzip the file, and use the command line to navigate to the unzipped folder:
 ```
 cd <pathToFolder>/BindingBooks-master/
 ```
@@ -97,18 +97,12 @@ This is the book details page.
 From the details page, we can choose to edit the book.
 ![alt text](https://github.com/ijekel2/BindingBooks/blob/master/BindingBooks/Content/Images/click-edit.png "Click Edit Button")
 
-This is the edit page.
-![alt text](https://github.com/ijekel2/BindingBooks/blob/master/BindingBooks/Content/Images/edit-book.png "Edit Book Page")
-
-Here I update the availiabity to "Out of Stock" and submit the change.
+Here I update the availabity to "Out of Stock" and submit the change.
 ![alt text](https://github.com/ijekel2/BindingBooks/blob/master/BindingBooks/Content/Images/submit-edit.png "Edit Availability and Submit")
 
 ### Delete Book
-We can see that the availability has been changed to "Out of Stock" on the Manage page.
+We can see that the availability has been changed to "Out of Stock" on the Manage page. Now we can click the delete button to redirect to the delete page.
 ![alt text](https://github.com/ijekel2/BindingBooks/blob/master/BindingBooks/Content/Images/click-delete.png "Click Delete Button On Updated Book")
-
-This is the delete page.
-![alt text](https://github.com/ijekel2/BindingBooks/blob/master/BindingBooks/Content/Images/delete-book.png "Delete Book Page")
 
 At the bottom of the delete page, we click the delete button to complete delete.
 ![alt text](https://github.com/ijekel2/BindingBooks/blob/master/BindingBooks/Content/Images/submit-delete.png "Click Delete Button")
